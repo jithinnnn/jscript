@@ -1,0 +1,19 @@
+.cky-accordian-item .cky-accordian-header {
+    justify-content: space-between !important;
+}
+
+.cky-accordian-header .cky-always-active{
+    margin-left: unset !important;
+}
+
+.cky-switch input[type="checkbox"]{
+    margin-left: unset !important;
+}
+
+.cky-preference-header{
+    justify-content: space-between !important;
+}
+
+.cky-preference-header .cky-btn-close img{
+    margin-left: unset !important;
+}

@@ -1,0 +1,134 @@
+1. High Level - human understadable - english, html, python, c, javascript.
+2. low level - machine understandable - assembly language.
+ 
+ compiler/interpreters
+
+ node- compiler of javascript 
+
+ data display
+ ---------------------
+ functions and methods
+
+ console.log() - method
+
+ data types
+ ---------------------
+ 1. String "hello" 'luminar technolab'
+ 2. Number integers (natural numbers 0 ,100, -5 , 3 ) float (0.7, -5.8 , 1.0)
+ 3. Boolean - true(1) / false(0)
+ 4. undefined - 
+
+ data storage - variables
+---------------------------
+
+-temporary
+
+int num
+num=10
+        -strictly typed
+
+num=10
+num="hello"
+        -dynamically typed - python, javascript 
+
+
+variable declarations
+------------------------
+
+var
+let
+const
+
+Operators in javascript
+---------------------------
+
+1. Assignment operator =
+2.Arithmetic operator +,-,*,/, % ,**
+3. Relational Operators <,>,<=,>=,!=,==,===
+4. increment/decrement ++, --
+5. Compound assignment operator +=   -= *=   /=   %=   **=
+6. Logical Operators  and(&&) ,  or(||)  , not(!)
+
+FLOW OF CONTROLS
+----------------------------
+1.deicision making - if, if else, if else if else
+2. looping - for , while, 
+3. switching -- to control the loop - break[discontinues everthing after the break statement], continue
+
+if(condition){
+        code
+}
+
+condition=true - run code inside block
+condition=false - exit from block
+
+
+features of a better code
+code reusablity - functions
+time complexity - time taken to produce output - loop
+space complexity - space used by the code - variables
+code length - number of lines in code - use operator like ternary operator
+
+functions
+------------
+
+1. function without arguements
+2. function with arguements
+3. function with return keyword ( to reuse functions output - to store functions output)
+4. callback functions
+5. recursive functions - a function which calls itself ( calling a function in itself)
+6. Arrow function [
+
+        functionName=()=>{
+                code
+        }
+
+         functionName=n=>{
+                code
+        }
+
+         functionName=(n1,n2,n3)=>{
+                code
+        }
+
+]
+
+Linar Search (n) and Binary Search (<n/2) = Searching Algorithms
+
+
+Next Topics
+- String Programs
+- Pattern Printing
+- Collections - storing more than one data in one location - array
+- OOPS 
+
+
+ARRAY METHODS 
+-------------
+1. sort - sorted array is the output
+2. map -  the number of elements in the output array will be same as the number of elements in the input array [OUTPUT IS IN ARRAY FORM]
+3. filter - has fewer elements in the output array than the input array 
+4. reduce - single value [ evaluates all the element in the input and gets only one output]
+5. reduceRight - 
+6. some - true/false is printed based on the given condition
+7. find - output is the first element which satisfies the condition first(returns output as element not array so easier without using the [0] to access the array)
+8. flat 
+9. includes - true or false is output to check if element present in the array or not, cannot be used in nested array 
+10. forEach - same as map but output is not in array form
+........etc
+
+OBJECT ORIENTED PROGRAMMING
+------------------------------------
+JS - Procedural PROGRAMMING - function based
+    - Object Oriented PROGRAMMING - class based / object based Programming
+
+
+class - design pattern/blueprint
+object - real world entity
+reference - used to store objects
+
+constructor
+inheritance - 3type
+polymorphism  - overloading, overriding
+abstraction - HW
+encapsulation - HW
